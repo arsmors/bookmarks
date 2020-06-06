@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import '../model/bookmark.dart';
 
 class BookmarkListItemWidget extends StatelessWidget {
-  Bookmark bookmark;
+  final Bookmark bookmark;
 
   BookmarkListItemWidget(this.bookmark);
 
